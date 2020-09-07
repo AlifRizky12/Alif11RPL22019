@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:background="@android:color/transparent"
+                    android:text="Alif 11 RPL 2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/baloo"
+            android:text="categories"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#FFD500"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Action"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnAction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/saitama" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#FF6600"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Adventure"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnAdventure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/luffy" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#FF0000"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Magic"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnMagic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="186dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/megumin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#1679F1"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Isekai"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnIsekai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/rimuru" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#00FF22">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Sport"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnSport"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/hinata" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="186dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/iwa" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Super Power"
+                    android:textColor="#000000"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnSuperPower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/transparent"
+                    android:text="expand all" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/killua" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
